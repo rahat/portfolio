@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Button, Card, CardActions, CardContent, Chip, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import projects from '../projects.json'
+import projects from '../projects.json';
 
 const styles = makeStyles((theme) => ({
   root: {
