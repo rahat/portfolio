@@ -1,6 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
-import { Button, Container, Typography } from '@material-ui/core';
+import { Button, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
 
@@ -30,20 +30,20 @@ function Home() {
 
     return (
         <div className={classes.root}>
-            <Container maxWidth='lg' className={classes.main}>
-                <Typography variant='h1' color="textPrimary" align="center" className={classes.title} gutterBottom>
+            <div className={classes.main}>
+                <Typography variant='h1' color="textPrimary" className={classes.title} gutterBottom>
                     Rahat Mahmud
                 </Typography>
-                <Typography variant='h5' color="textSecondary" align="center" gutterBottom>
+                <Typography variant='h5' color="textSecondary" gutterBottom>
                     Developer based in NYC
                 </Typography>
-                <Typography variant='h6' color="textSecondary" align="center" gutterBottom>
+                <Typography variant='h6' color="textSecondary" gutterBottom>
                     Java / C++ / C# / Python / HTML / CSS / JS
                 </Typography>
-                <div className={classes.button}>
-                    <Button variant="outlined" color="default" to="/projects" component={Link}>See my work</Button>
-                </div>
-            </Container>
+
+                <Button variant="outlined" color="inherit" to="/projects" component={Link}>See my work</Button>
+                <Button variant="outlined" color="inherit" to="/contact" component={Link}>Contact me</Button>
+            </div>
             <Particles style={{ position: 'fixed', zIndex: -1 }} width={'100%'} height={'100%'}
                 params={{
                     particles: {
