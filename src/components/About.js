@@ -10,10 +10,11 @@ const styles = makeStyles((theme) => ({
         height: '70vh',
     },
     skills: {
-        paddingTop: theme.spacing(2),
+        paddingTop: theme.spacing(8),
     },
     list: {
         paddingLeft: 15,
+        marginTop: 0,
     },
 }));
 function About() {
