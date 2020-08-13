@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Button, Card, CardActions, CardContent, Chip, Typography } from '@material-ui/core';
+import GithubIcon from '@material-ui/icons/GitHub';
 import { makeStyles } from '@material-ui/core/styles';
 import projects from '../projects.json';
 
@@ -39,7 +40,7 @@ function Projects() {
                     }
                   </CardContent>
                   <CardActions>
-                    <Button size='small' href={project.link}>Github</Button>
+                    <Button size='small' variant="outlined" startIcon={<GithubIcon />} href={project.link}>Github</Button>
                   </CardActions>
                 </Card>
               </Grid>
