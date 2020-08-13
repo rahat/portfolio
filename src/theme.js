@@ -2,7 +2,7 @@ import { createMuiTheme } from '@material-ui/core/styles';
 
 export default createMuiTheme({
   shape: {
-    borderRadius: 0,
+    borderRadius: 3,
   },
   palette: {
     type: 'dark',
