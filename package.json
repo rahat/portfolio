@@ -12,9 +12,11 @@
     "gh-pages": "^3.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-gesture-responder": "^2.1.0",
+    "react-image-enlarger": "^1.1.0",
     "react-particles-js": "^3.2.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^3.4.3"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -38,5 +40,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }
