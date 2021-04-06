@@ -25,7 +25,7 @@ function Contact() {
             <Container maxWidth='xs'>
                 <Typography variant="h2" align="center">Contact Me</Typography>
                 <Divider />
-                <Button variant="contained" color="primary" className={classes.button} startIcon={<MailOutlineIcon />} href="mailto:rahatmahmud@gmail.com" target="_blank">Email</Button>
+                <Button variant="contained" color="primary" className={classes.button} startIcon={<MailOutlineIcon />} href="mailto:rahat.mahmud@macaulay.cuny.edu" target="_blank">Email</Button>
                 <Button variant="contained" color="primary" className={classes.button} startIcon={<GithubIcon />} href="http://github.com/rahat" target="_blank">GitHub</Button>
                 <Button variant="contained" color="primary" className={classes.button} startIcon={<LinkedInIcon />} href="http://www.linkedin.com/in/rahatmahmud" target="_blank">LinkedIn</Button>
             </Container>
