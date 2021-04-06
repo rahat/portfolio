@@ -66,7 +66,7 @@ function Projects() {
                     }
                   </CardContent>
                   <CardActions>
-                    <Button size='small' variant="outlined" startIcon={<GithubIcon />} href={project.link}>Github</Button>
+                    {project.link ? <Button size='small' variant="outlined" startIcon={<GithubIcon />} href={project.link}>Github</Button> : null}
                     {project.images ? <Button size='small' variant="outlined" startIcon={<PhotoOutlinedIcon />} onClick={() => handleExpandClick(index)}>Screenshots</Button> : null}
                   </CardActions>
                   <Collapse in={expanded[index]} timeout="auto" unmountOnExit>
